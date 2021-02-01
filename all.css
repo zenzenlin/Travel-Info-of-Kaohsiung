@@ -1,0 +1,322 @@
+/* css reset start*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url(https://upload.cc/i1/2020/12/25/QDNC6j.png) no-repeat;
+    height: 380px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 89px;
+    letter-spacing: 5px;
+}
+
+.header select {
+    width: 452px;
+    height: 48px;
+    margin-left: 293px;
+    margin-top: 95px;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.hotPlace {
+    width: 800px;
+    height: 112px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin: -30px auto;
+    margin-bottom: 50px;
+}
+
+.hotPlace h3 {
+    font-size: 18px;
+    padding-left: 26px;
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+
+.hotPlace input {
+    width: 130px;
+    height: 42px;
+    border-radius: 5px;
+    border-style: none;
+    outline-style: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.purple {
+    background: #8a82cc 100%;
+}
+
+.orange {
+    background: #ffa782 100%;
+}
+
+.yellow {
+    background: #f5d105 100%;
+}
+
+.blue {
+    background: #559ac8 100%;
+}
+
+.hotPlace ul {
+    display: flex;
+}
+
+.line {
+    position: relative;
+}
+
+.line i {
+    position: absolute;
+    top: -10px;
+    right: 50%;
+    border: 2px solid #559ac8;
+    border-radius: 50%;
+    padding: 0 4px;
+    color: #559ac8;
+    font-size: 22px;
+}
+
+.dotted-spaced {
+    background-image: linear-gradient(to right,
+            #559ac8 10%,
+            rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 10px 2px;
+    background-repeat: repeat-x;
+    padding: 10px 10px;
+}
+
+.infoShow {
+    padding-top: 48px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.infoShow .title {
+    font-size: 38px;
+    color: #8a82cc;
+    margin-bottom: 30px;
+}
+
+/* @media(max-width :767px) { */
+    .content {
+        padding: 0 16px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* justify-content: space-around; */
+        width: 100%;
+    }
+/* } */
+
+.innerContent {
+    width: 46%;
+    margin: 16px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px 0px
+}
+.row{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.textArea {
+    padding: 16px 24px 0 24px;
+    text-align: left;
+}
+p{
+    margin-bottom: 16px;
+}
+.pic {
+    min-height: 155px;
+    padding: 8px 24px;
+    color: #fff;
+}
+
+.placeTitle {
+    font-size: 24px;
+}
+
+.justify-content {
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: space-between !important;
+}
+.justify-content-around {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.justify-content-between {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.info-icon {
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+.footer {
+    background-color: #559AC8;
+    padding: 30px 0;
+    text-align: center;
+    /* letter-spacing: 1px; */
+}
+
+.goverment {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sourse {
+    color: #FFD366;
+}
