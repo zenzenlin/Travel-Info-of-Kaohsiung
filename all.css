@@ -220,7 +220,8 @@ img {
 .line i {
     position: absolute;
     top: -10px;
-    right: 50%;
+    left: 50%;
+    transform: translateX(-50%);
     border: 2px solid #559ac8;
     border-radius: 50%;
     padding: 0 4px;
